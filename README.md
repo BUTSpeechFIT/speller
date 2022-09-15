@@ -6,6 +6,6 @@ Feature extraction is inherited from Kaldi, and so needs kaldi-style data folder
 
 ./02-sentencepiece-text-prep.sh # text segmenting with sentencepiece
 
-./03-train.sh # prepares input; performs LAS training
+./03-train.sh # prepares input; performs LAS training; has been tested on Python3.9
 
 LAS training is based on scripts by Harikrishna Vydana
