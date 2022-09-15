@@ -8,6 +8,6 @@ Feature extraction is inherited from Kaldi, and so needs kaldi-style data folder
 
 ./03-train.sh # prepares input; performs LAS training; has been tested on Python3.9
 
-LAS training is based on scripts by Harikrishna Vydana
+LAS training is based on scripts by Harikrishna Vydana, Decoder is changed to add speller, variables specifying different speller inputs, paameter for the number of embeddings representing OOVs
 
 ./04-decode.sh # runs beam-search decoding with the trained model
